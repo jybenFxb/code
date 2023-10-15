@@ -1,12 +1,13 @@
 <template>
   <div>
-    <div v-for="(item, index) in resArr" :key="index"><span>{{ item.id}}</span></div>
+    我是头部
+    <!-- <div v-for="(item, index) in resArr" :key="index"><span>{{ item.id}}</span></div> -->
   </div>
 </template>
    
 
    
-<script setup lang='ts'>
+<script lang='ts'  setup>
 import { reqHospital } from '@/api/home'
 import { onMounted, ref } from "vue";
 import type {RootObject,HospContent} from '@/api/home/type'

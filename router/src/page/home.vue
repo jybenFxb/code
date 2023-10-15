@@ -1,10 +1,10 @@
 <template>
-   <div>
-      我是底部
-   </div>
+    <div>
+        sss
+    </div>
 </template>
 
-<script lang='ts' setup >
+<script setup lang='ts'>
 
 </script>
 

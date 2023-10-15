@@ -1,10 +1,11 @@
 <template>
-   <div>
-      我是底部
-   </div>
+    <div>
+        我是首页qq
+    </div>
 </template>
 
-<script lang='ts' setup >
+<script setup lang='ts'>
+
 
 </script>
 

@@ -3,8 +3,12 @@
 
 <template>
   <div>
-    5555
+   
    <top />
+   
+   
+   <router-view />
+  
    <bottom />
   </div>
 </template>
