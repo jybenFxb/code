@@ -5,6 +5,16 @@
 </template>
 
 <script lang='ts' setup >
+import {useDefineStore} from '@/store/module/hosptial'
+
+import { onMounted } from 'vue';
+
+let getdata = useDefineStore();
+
+
+onMounted(()=>{
+   getdata.getHosp(1,10)
+})
 
 </script>
 
